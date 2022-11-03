@@ -18,7 +18,7 @@ import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoBehance } from 'react-icons/io5'
 
 const Page = () => {
     return (
@@ -41,11 +41,14 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         About Me
                     </Heading>
-                    <Paragraph>Hi, I&apos;m a software developer with a strong will to
+                    <Paragraph>
+                        Hi, I&apos;m a software developer with a strong will to
                         learn, research new technologies, and design software architecture.
                         I like creating practical business solutions and making development
-                        processes as efficient as possible. When I&apos;m not glued to my computer
-                        I like going to the gym, swimming and playing chess.
+                        processes as efficient as possible.All coding projects are built from 
+                        the ground up, from planning and designing all the way to solving real-life 
+                        problems with code. When I&apos;m not on my computer I like to go swimming,
+                        play chess and football.
                         <Box align="center" my={4}>
                             <NextLink href="/projects">
                                 <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">My Projects</Button>
@@ -63,6 +66,13 @@ const Page = () => {
                             <Link href="https://github.com/usman-m100" target="_blank">
                                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>
                                     @usman-m100
+                                </Button>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href="https://www.behance.net/mobdzn" target="_blank">
+                                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoBehance} />}>
+                                    @mobdzn
                                 </Button>
                             </Link>
                         </ListItem>
