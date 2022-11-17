@@ -3,6 +3,7 @@ import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
 import thumbGameEngine from '../public/images/game-engine.png'
 import thumbtodo from '../public/images/todo1.png'
+import thumbmain from '../public/images/main.png'
 import Layout from '../components/layouts/article'
 
 const Projects = () => {
@@ -22,6 +23,11 @@ const Projects = () => {
                     <Section>
                         <ProjectGridItem id="todo" title="ReactJS Todo App" thumbnail={thumbtodo}>
                             Todo Application - Made with React
+                        </ProjectGridItem>
+                    </Section>
+                    <Section>
+                        <ProjectGridItem id="facebook" title="Facebook Clone" thumbnail={thumbmain}>
+                            Facebook Clone - Made with Next
                         </ProjectGridItem>
                     </Section>
                 </SimpleGrid>
