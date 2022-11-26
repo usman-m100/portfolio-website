@@ -16,18 +16,13 @@ const Projects = () => {
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section>
-                        <ProjectGridItem id="gameengine" title="Wave Engine" thumbnail={thumbGameEngine}>
-                            Wave Game Engine - made with C++
-                        </ProjectGridItem>
-                    </Section>
-                    <Section>
-                        <ProjectGridItem id="todo" title="ReactJS Todo App" thumbnail={thumbtodo}>
+                        <ProjectGridItem id="todo" title="Todo App" thumbnail={thumbtodo}>
                             Todo Application - Made with React
                         </ProjectGridItem>
                     </Section>
                     <Section>
                         <ProjectGridItem id="facebook" title="Facebook Clone" thumbnail={thumbmain}>
-                            Facebook Clone - Made with Next
+                            Facebook Clone - Made with Next & Firebase
                         </ProjectGridItem>
                     </Section>
                 </SimpleGrid>
